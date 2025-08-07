@@ -9,10 +9,12 @@ const App = () => {
   ]);
 
   return (
-    <Fragment>
+    <div className=" relative h-screen w-screen  bg-slate-900">
+      <h1 className="text-6xl font-bold text-center text-slate-100  pt-5">Daily Tracker</h1>
       <Create todos={todos} setTodos={setTodos} />
+
       <Read todos={todos} setTodos={setTodos} />
-    </Fragment>
+    </div>
   );
 };
 
