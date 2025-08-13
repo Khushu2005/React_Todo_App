@@ -10,11 +10,14 @@ This project demonstrates basic **CRUD functionality** using React.
 
 ##  Features
 
--  Add new tasks (Create)
--  Delete tasks
--  Mark tasks as completed
-- Minimal UI with internal CSS
-- ⚛ Built using functional components and React hooks
+- Add new tasks (Create)
+- Pending tasks (Read)
+- Delete tasks  (Delete)
+- React-form-hook for validation 
+- popup by react-toastify
+- Minimal UI with TailwindCSS
+- Built using functional components and React hooks
+  
 
 ---
 
@@ -22,7 +25,7 @@ This project demonstrates basic **CRUD functionality** using React.
 
 - ReactJS (with Vite)
 - JavaScript (ES6+)
-- Internal CSS styling
+- TailwindCSS styling
 - gh-pages (for deployment)
 
 ---
