@@ -8,18 +8,16 @@ This project demonstrates basic **CRUD functionality** using React.
 
 ---
 
-##  Features
+## Features
 
-- Add new tasks (Create)
-- Pending tasks (Read)
-- Delete tasks  (Delete)
-- React-form-hook for validation 
-- popup by react-toastify
-- Minimal UI with TailwindCSS
-- Built using functional components and React hooks
-  
+- **Create** – Validate with *React Hook Form*, unique IDs via *nanoid*.  
+- **Read** – Display pending tasks dynamically.  
+- **Delete** – Remove using *filter()* by ID.  
+- **Notifications** – *React Toastify* on add/delete.  
+- **State** – Global state via *Context API*.  
+- **UI** – Minimal *TailwindCSS* design.  
+- **Tech** – Functional components + Hooks.  
 
----
 
 ## 🛠️ Tech Stack
 
